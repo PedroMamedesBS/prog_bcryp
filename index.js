@@ -8,6 +8,7 @@ const Usuario = require('./model/Usuario')
 const PORT = 3000
 const hostname = 'localhost'
 
+
 /*--------------------config---------------------- */
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
@@ -82,3 +83,4 @@ conn.sync().then(() => {
 }).catch(() => {
     console.error(' Erro de conexão com o Banco de dados!', err)
 })
+/*------------------------------------------------ */

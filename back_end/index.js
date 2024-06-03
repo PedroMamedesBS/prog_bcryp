@@ -33,7 +33,7 @@ app.post('/logar', async (req, res)=> {
                     res.status(500).json({ message: "Erro ao verificar a criptografia!" })
                 } else if (result) {
                     console.log("Senha correta!")
-                    res.status(200).json({ message: 'Login feito com sucesso!' })
+                    res.status(200).json(pesq)
                 } else {
                     console.log("Senha incorreta")
                     res.status(404).json({ message: "Senha incorreta. Tente novamente!" })

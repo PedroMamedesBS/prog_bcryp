@@ -1,0 +1,1 @@
+Este é um sistema de login de pequeno porte, onde você consegue cadastrar e o logar a sua conta, inserindo o seu nome, email e senha. O cadastro é diretamente ligado à um banco de dados onde há um sistema de criptografia na sua senha;   
